@@ -38,7 +38,7 @@ public class RoutesParser {
                 final String shortName = data[2];
                 final String longName = data[3];
                 final int routeType = Integer.parseInt(data[4]);
-                final String transportType = data[4];
+                final String transportType = data[5];
                 final boolean isCircular = Integer.parseInt(data[6]) == 1;
                 final boolean isUrban = Integer.parseInt(data[7]) == 1;
                 final boolean isNight = Integer.parseInt(data[8]) == 1;

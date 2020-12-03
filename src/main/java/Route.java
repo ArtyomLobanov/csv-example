@@ -66,7 +66,7 @@ public class Route {
                 "\tagencyId='" + agencyId + '\'' + System.lineSeparator() +
                 "\tshortName='" + shortName + '\'' + System.lineSeparator() +
                 "\tlongName='" + longName + '\'' + System.lineSeparator() +
-                "\ttype=" + type +
+                "\ttype=" + type + System.lineSeparator() +
                 "\ttransportType='" + transportType + '\'' + System.lineSeparator() +
                 "\tisCircular=" + isCircular + System.lineSeparator() +
                 "\tisUrban=" + isUrban + System.lineSeparator() +
